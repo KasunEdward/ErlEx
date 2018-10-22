@@ -13,5 +13,5 @@
 
 say_hello_test() ->
   {ok,Pid} = myrelease_hello:start_link(),
-  %%2222222 = myrelease_hello:say_hello().
+  %%22222222 = myrelease_hello:say_hello().
   2222 = myrelease_hello:say_hello().
